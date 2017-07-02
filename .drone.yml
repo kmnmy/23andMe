@@ -2,6 +2,6 @@ pipeline:
   develop:
     image: yanana/google-cloud-sdk-coreos
     commands:
-      - echo "hello world 3"
+      - echo "hello world 4"
     when:
       event: [push, tag]
