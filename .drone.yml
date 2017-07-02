@@ -1,5 +1,5 @@
 pipeline:
-  develop:
+  master:
     image: yanana/google-cloud-sdk-coreos
     commands:
       - echo "hello"
