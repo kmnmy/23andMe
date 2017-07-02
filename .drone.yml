@@ -2,6 +2,6 @@ pipeline:
   master:
     image: yanana/google-cloud-sdk-coreos
     commands:
-      - echo "hello"
+      - echo "hello world"
     when:
       event: [push, tag]
