@@ -1,0 +1,7 @@
+pipeline:
+  develop:
+    image: yanana/google-cloud-sdk-coreos
+    commands:
+      - echo "hello"
+    when:
+      event: [push, tag]
